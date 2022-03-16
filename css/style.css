@@ -7,7 +7,11 @@
     box-sizing: border-box;
 }
 
-
+body{
+    background-image: url("../img/bg3.jpg");
+    background-size: cover;
+    position: center;
+}
 
 .container {
     width: 100%;
@@ -21,12 +25,11 @@
     grid-template-columns: 1fr 1fr;
     align-items: center;
     padding: 10px 0px;
-    background-color: rgb(26, 30, 34);
     position: sticky;
+    background-color: rgba(26, 30, 34, 0.80);
     top: 0;
     z-index: 1;
     width: 100%;
-    
 }
 
 .logo {
@@ -34,6 +37,7 @@
     text-decoration: none;
     color: white;
     padding-left: 10px;
+    background-color: rgba(26, 30, 34, 0.80);
 
 }
 
@@ -125,9 +129,7 @@
 
 }
 
-.logo{
-    background-color: rgb(26, 30, 34);
-}
+
 
 
 .content_nav li a::after {
@@ -187,7 +189,7 @@
 
 
 footer {
-    background-color: rgb(26, 30, 34);
+    background-color: rgba(26, 30, 34, 0.50);
     color: white;
     padding: 20px;
     grid-gap: 200px;
@@ -243,6 +245,6 @@ footer {
 
 #f-copy{
     text-align: center;
-    background-color: rgb(26, 30, 34);
+    background-color: rgba(26, 30, 34, 0.50);
     color: white
 }
