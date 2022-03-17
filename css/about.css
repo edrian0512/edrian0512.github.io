@@ -26,7 +26,7 @@ body {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     padding: 10px 0px;
-    background-color: rgba(26, 30, 34, 0.80);
+    background-color: rgba(5, 21, 37, 0.80);
     position: sticky;
     top: 0;
     z-index: 1;
@@ -40,7 +40,7 @@ body {
     color: white;
     padding-left: 10px;
     position: sticky;
-    background-color: rgba(26, 30, 34, 0.80);
+    background-color: rgba(5, 21, 37, 0.80);
 }
 
 .tab-nav {
@@ -249,7 +249,7 @@ body {
 
 
 footer {
-    background-color: rgba(26, 30, 34, 0.50);
+    background-color: rgba(5, 21, 37, 0.50);
     color: white;
     padding: 20px;
     grid-gap: 200px;
@@ -305,7 +305,7 @@ footer {
 
 #f-copy {
     text-align: center;
-    background-color: rgba(26, 30, 34, 0.50);
+    background-color: rgba(5, 21, 37, 0.50);
     color: white
 }
 
@@ -316,7 +316,7 @@ footer {
 }
 
 .aboutUs {
-    background-color: rgba(26, 30, 34, 0.10);
+    background-color: rgba(5, 21, 37, 0.10);
     color: #fff;
     padding-top: 110px;
     padding-bottom: 110px;
