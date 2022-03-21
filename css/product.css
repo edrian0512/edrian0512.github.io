@@ -10,10 +10,11 @@
 
 body {
     background-image: url("../img/bg3.jpg");
+    background-position: center;
+    background-attachment: fixed;
     background-size: cover;
-    position: center;
+    background-repeat: no-repeat;
 }
-
 .container {
     width: 100%;
     margin: auto;
