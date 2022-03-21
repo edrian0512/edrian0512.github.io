@@ -274,7 +274,7 @@ footer {
         display: grid;
         grid-template-areas:
             "latest help gTouch";
-        grid-template-columns: 1fr 80px 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
     }
 

@@ -185,6 +185,9 @@ body{
 
 
 /* content */
+article{
+    background-color: aqua;
+}
 
 
 footer {
