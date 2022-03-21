@@ -94,9 +94,7 @@ body {
 
 .s-box {
     width: 200px;
-    margin: 0px auto;
     position: relative;
-    text-align: center;
 }
 
 .s-box .s-input {
@@ -128,7 +126,6 @@ body {
     position: absolute;
     top: 5px;
     right: 10px;
-
 }
 
 
@@ -236,12 +233,13 @@ body {
 }
 
 
-
-
 .content img{
     height: 300px;
     width: auto;
-
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -276,7 +274,7 @@ footer {
         display: grid;
         grid-template-areas:
             "latest help gTouch";
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 80px 1fr;
         grid-template-rows: 1fr;
     }
 
