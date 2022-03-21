@@ -7,7 +7,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     background-image: url("../img/bg3.jpg");
     background-position: center;
@@ -16,10 +15,11 @@ body {
     background-repeat: no-repeat;
 }
 
+
 .container {
     width: 100%;
     margin: auto;
-
+    
 }
 
 .nav_box {
@@ -28,12 +28,12 @@ body {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     padding: 10px 0px;
-    background-color: rgba(5, 21, 37, 0.80);
+    background-color: rgba(5, 21, 37, 0.8);
     position: sticky;
     top: 0;
     z-index: 1;
     width: 100%;
-
+    
 }
 
 .logo {
@@ -42,7 +42,7 @@ body {
     color: white;
     padding-left: 10px;
     position: sticky;
-    background-color: rgba(5, 21, 37, 0.80);
+    background-color: rgba(5, 21, 37, 0.8);
 }
 
 .tab-nav {
@@ -96,7 +96,9 @@ body {
 
 .s-box {
     width: 200px;
+    margin: 0px auto;
     position: relative;
+    text-align: center;
 }
 
 .s-box .s-input {
@@ -128,8 +130,8 @@ body {
     position: absolute;
     top: 5px;
     right: 10px;
-}
 
+}
 
 .content_nav li a::after {
     content: '';
