@@ -7,13 +7,6 @@
     box-sizing: border-box;
 }
 
-body {
-    background-image: url("../img/bg3.jpg");
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 
 
 .container {
@@ -29,7 +22,7 @@ body {
     align-items: center;
     padding: 10px 0px;
     position: sticky;
-    background-color: rgba(5, 21, 37, 0.81);
+    background-color: #03111f;;
     top: 0;
     z-index: 9;
     width: 100%;
@@ -40,7 +33,7 @@ body {
     text-decoration: none;
     color: white;
     padding-left: 10px;
-    background-color: rgba(5, 21, 37, 0.80);
+    background-color: #03111f;;
 
 }
 
@@ -181,7 +174,7 @@ body {
 
 
 footer {
-    background-color: rgba(5, 21, 37, 0.50);
+    background-color: #03111f;;
     color: white;
     padding: 20px;
     grid-gap: 200px;
@@ -237,6 +230,6 @@ footer {
 
 #f-copy {
     text-align: center;
-    background-color: rgba(5, 21, 37, 0.50);
+    background-color: #03111f;;
     color: white
 }
